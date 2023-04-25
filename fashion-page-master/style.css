@@ -1,0 +1,158 @@
+* {
+  font-family: orbitron;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.list-item {
+  list-style: none;
+  padding: 5px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.list-item:first-child {
+  position: relative;
+}
+
+.list-item:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  border-bottom: 3px solid black;
+  width: 60%;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+}
+
+.search-icon {
+}
+
+.nav-button {
+  width: 135px;
+  height: 35px;
+  background-color: white;
+  font-size: large;
+  border-radius: 10px;
+  border: 3px solid black;
+  font-family: poppins;
+  color: #6e6e6e;
+}
+
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.hero-container-left {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  /* width: 500px; */
+}
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-grow: 1;
+}
+
+.hero-container-right > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.hero-container-right > div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-container-right > div:nth-child(3) > h1 {
+  font-size: 3em;
+  width: 681px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.person {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  z-index: 1;
+  height: 300px;
+}
+
+.person > img {
+  height: 600px;
+}
+
+.square {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  padding-top: 55%;
+  padding-left: 1%;
+}
+
+.star > img {
+  height: 55px;
+}
+
+.globe > img {
+  height: 55px;
+}
+
+.hero-description,
+.contact-heading {
+  font-family: poppins;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+.button-email {
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  font-size: large;
+  border-radius: 10px;
+  border: 3px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.button-join {
+  width: 135px;
+  height: 35px;
+  background-color: black;
+  font-size: large;
+  border-radius: 10px;
+  border: 3px solid black;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head{
+    background-color: #7030CC;
+    height: 900px
+}
+
+.logo{
+    padding: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 0px;
+    line-height: 100px;
+    font-weight: lighter;
+}
+
+.list{
+    color: white;
+    font-size: 20px;
+}
+
+.list-active{
+    color: white;
+    font-size: 20px;
+    color: blue;
+    text-decoration: 2px underline pink;
+}
+
+.nav-bar button{
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    background-color: #1BBCEF;
+    color: #FFFFFF;
+    border: 1px solid #1BBCEF;
+    position: relative;
+    left: -30px;
+    font-size: 18px;
+}
+
+.head h1{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+    color: #FFFFFF;
+    font-weight: 550;
+}
+
+.head p{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 600px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.hero{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-arcitech  {
+    height: 600px;
+    width: 950px;
+    float: right;
+    position: relative;
+    top: -400px;
+}
+
+.saas{
+    height: 600px;
+    width: 500px; 
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.content{
+    padding: 110px;
+    position: relative;
+    left: 190px;
+}
+
+.upper{
+    font-weight: 600;
+    padding: 50px;
+}
+
+.pros{
+    list-style: none;
+    position: relative;
+
+}
+
+.pro{
+    position: relative;
+    left: -20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.pros p{
+    width: 500px;
+}
+
+.lower{
+    padding: 50px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards img{
+    height: 60px;
+    width: 90px;
+}
+
+.card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    border-radius: 20px;
+}
+
+.active{
+    background-color: #7030CC;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.imgOne{
+    background-color: #C78B8B;
+    color: #C78B8B;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 70%;
+}
+
+.imgTwo{
+    background-color: #C78B8B;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 70%;
+}
+
+.imgThree{
+    background-color: #A8C2C2;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 70%;
+}
+
+.imgFour{
+    background-color: #c7a9cf;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 70%;
+}
+
+.card h4{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}
+
+@media screen and (max-width:415px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;   
+     }
+     .list, .list-active{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+     }
+     .list button{
+         margin-left: 60px;
+     }
+     .head h1{
+        padding-top: 180px;
+        font-size: 40px;
+        justify-content: center;
+        margin: auto;
+        width: 300px;
+     }
+     .head p{
+        font-size: 20px;
+        justify-content: center;
+        margin: auto;
+        width: 300px;
+     }
+     img[src="./assets/30495 [Converted]-01.svg"]{
+        width: 350px;
+        position: relative;
+        top: 0px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    img[src="./assets/Saas illustration-01.svg"]{
+        width: 350px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -300px;
+    }
+    .upper{
+        margin-left: -40px;
+        margin-top: -200px;    
+    }
+    .hero p{
+        width: 250px;
+    }
+    .lower{
+        font-size: 40px;
+        justify-content: center;
+        width: 300px;
+        margin-left: -40px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 80px;
+    }
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Ibarra+Real+Nova:ital,wght@1,500&family=Josefin+Sans:wght@200;400&family=Kanit:wght@200;500&family=Montserrat:ital,wght@0,500;1,400;1,500;1,600&family=Noto+Sans:wght@700&family=Nunito:wght@700&family=Oswald:wght@300;500;700&family=Work+Sans:wght@500&display=swap');
+
+body{
+    background-image: url(./assets/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+.nav-section{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-section h1{
+    padding: 20px;
+}
+
+.list{
+    padding: 50px;
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.line{
+    width: 60%;
+    color: #FFFFFF;
+    position: relative;
+    left: 130px;
+    top: -20px;
+}
+
+.hero{
+    display: flex;
+}
+
+.right h1{
+    font-size: 70px;
+    width: 880px;
+    margin: 40px;
+}
+
+.learn{
+    height: 100px;
+    width: 230px;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: larger;
+    margin: 40px;
+}
+
+.boxOne{
+    text-align: center;
+    height: 140px;
+    background: linear-gradient(#304656, transparent,#304656);
+    position: relative;
+    left: 0px;
+    padding: 40px;
+    font-size: larger;
+    width: 220px;
+}
+
+.boxOne img{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+}
+
+
+.boxTwo{ text-align: center;
+    height: 140px;
+    background: linear-gradient(#304656, transparent,#304656);
+    position: relative;
+    left: -310px;
+    bottom: -110px;
+    padding: 40px;
+    font-size: larger;
+    width: 220px;
+}
+
+.boxTwo img{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+}
+
+@media screen and (max-width:415px){
+    body{
+        background-image: url(./assets/retro-living-room-interior-design.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-attachment: fixed;
+    }
+
+    .nav-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .nav-section h1{
+        position: relative;
+        left: 80px;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .line{
+        display: flex;
+        position: relative;
+        left: -20px;
+        justify-content: center;
+        margin: auto;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .right h1{
+        font-size: 40px;
+        width: 350px;
+        justify-content: center;
+        margin: auto;
+    }
+    .learn{
+        width: 160px;
+        position: relative;
+        
+    }
+    .boxOne{
+        width: 120px;
+    }   
+    .boxTwo{
+        position: relative;
+        left: 160px;
+        width: 120px;
+        font-size: 17px;
+    }
+}
